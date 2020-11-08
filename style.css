@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@694&family=Itim&family=Karla&family=Lobster&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li{
+    margin: .3rem;
+    font-family: Karla;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 26px; 
+    font-family: Acme;
+    letter-spacing: .2rem;
+}
+h3{
+    font-size: 24px;
+   font-family: Acme;  
+   letter-spacing: .2rem;
+    margin: .5rem 0rem;
+}
+h4{
+    font-size: 19px;
+   font-family: Itim;
+   letter-spacing: .1rem;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+    text-transform: initial;
+   font-family: Karla;
+   font-weight: 500;
+   margin: .5rem 0rem;
+   letter-spacing: .1rem;
+   margin-right: 2rem;
+}
+     /* start of header */
+header{
+    max-width:100vw;
+    z-index: 200;
+    border-bottom: .15rem solid white;
+}
+
+.fixedNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 200;
+    border-bottom: .15rem solid rgb(199, 3, 68);
+    transition: all .5s ease;
+}
+/* start of HOMEPAGE */
+.contact{
+    padding: .5rem 1.2rem;
+    background-color: rgb(199, 3, 68);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .number{
+    margin-top: .5rem;
+    font-size: 16px;
+    font-family: Karla;
+}
+.contact .number i{
+    font-size: 20px;
+}
+.contact .social-media a i{
+   font-size: 20px;
+   border-radius: 50%;
+   padding: .4rem;
+   align-items: center;
+}
+.social-media li:hover{
+    transform: rotate(360deg);
+    transition: all .4s ease;
+}
+.fb{
+    background-color:#3B5999;
+    color: white; 
+}
+.tw{
+    background-color: #55ACEE;
+    color: white; 
+}
+.gp{
+    background-color:#dd4b39 ;
+    color:white ;
+}
+.ig{
+    background: linear-gradient(#e4405f, #3b5999);
+    color: white;
+}
+.titlebar{
+    padding: .5rem 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top: .01rem solid white;
+}
+.titlebar .title{
+    font-family: Lobster;
+    font-size: 30px;
+    letter-spacing: .15rem;
+}
+.titlebar .title span{
+    font-family: Dancing script;
+    color:rgb(199, 3, 68) ;
+}
+.navbar li{
+    margin: .4rem .1rem;
+}
+.navbar a{
+    padding: .4rem .5rem;
+    color: black;
+    text-transform: uppercase;
+    font-family: Karla;
+    font-size: 18px;
+}
+.navbar li:hover a{
+     background-color:rgb(199, 3, 68) ;
+     color: white;
+     transition: all .4s ease-in-out;
+}
+
+/* end of header */
+
+/* start of section */
+
+     /* start of section:Welcome  */
+section .welcome{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room7Home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 10rem;
+    color: white;
+}
+.welcome h2{
+    /* font-family: Lobster; */
+      font-size: 45px;
+      letter-spacing: .4rem;
+      margin-bottom: 1.5rem;
+}
+.welcome h3{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.welcome h4{
+    font-size: 30px;
+    font-family: Dancing Script;
+    letter-spacing: .25rem;
+}
+.welcome span{
+    color:rgb(245, 58, 120);
+}
+     /* end of section:Welcome  */
+
+     /* start of section:Message  */
+.message{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.message h2{
+    text-transform: uppercase;
+    color:rgb(199, 3, 68);
+}
+.message h4, .hFour{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+   /* start for all buttons */
+ .btn{
+    border: .15rem solid  rgb(199, 3, 68);
+    margin: .5rem 1rem;
+    padding: .4rem .6rem;
+    background-color:rgb(199, 3, 68);
+    border-top-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+.btn a{
+    color: white;
+    font-family: Karla;
+    font-size: 16px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: white;
+    transition: all .3s ease-in;
+}
+.btn:hover a{
+    color:  rgb(199, 3, 68);
+    transition: all .3s ease-in;
+}
+   /* end for all buttons */
+
+.photo-info{
+    margin:auto;
+}
+.photo-info img{
+    width: 450px;
+    border: .3rem solid peachpuff;
+    border-radius: .5rem;
+    transform: skewX(-8deg);
+    cursor: pointer;
+}
+.photo-info img:hover{
+    transform: skewX(0deg);
+    border: .3rem solid transparent;
+    transition: all .2s ease;
+}
+     /* end of section:Message  */
+    
+     /* start of article  */
+article{
+    margin:2rem 1rem 2rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    place-items: center;
+}
+article img{
+    align-items: center;
+    margin: 1rem 1rem .5rem 0rem ;
+   width: 500px;
+}
+.hFour{
+    color:rgb(199, 3, 68) ;
+}
+.icon-food{
+    display: flex;
+}
+.icon-food p{
+    margin: .1rem .7rem;
+    font-size: 16px;
+    letter-spacing: .1rem;
+    font-family: Itim;
+}
+.icon-food i{
+    display: flex;
+    color:rgb(199, 3, 68) ;
+}
+     /* end of article  */
+
+     /* start section:Gallery */
+.gallery{
+    margin: 1.5rem auto .5rem auto;
+    text-align: center;
+}
+.gallery h3{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 25px;
+}
+.options{
+    margin: .5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.filterBtn{
+    margin: 0rem .1rem .5rem .1rem;
+    padding: .4rem .6rem;
+    color: black;
+    text-transform: capitalize;
+    background-color: transparent;
+    font-family: Karla;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.filterBtn:hover{
+    background-color:rgb(199, 3, 68) ;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.active{
+    background-color:rgb(199, 3, 68) ;
+    color: white;
+}
+   /* start of images */
+   .images-wrapper{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       gap: .05rem .1rem;
+       place-items: center;
+    }
+    .image-phto{
+       position: relative;    
+       cursor: pointer;  
+    }
+     .image-phto .image{
+       width: 290px;
+       height: 200px;
+       background-position: center;
+       background-size: cover; 
+    }
+     .about{
+        font-family: Itim;
+        font-size: 18px;
+        color: white;
+        border-bottom: .15rem solid rgb(199, 3, 68);
+        text-transform: capitalize;
+        letter-spacing: .2rem;
+        position: absolute;
+        left: 6%;
+        bottom: 10%;
+        visibility: hidden;
+        height: 0%;
+        overflow: hidden;
+    }
+    .image-phto:hover .image{
+       filter: brightness(70%);
+       transition: all .2s ease-in-out;
+    }
+    .image-phto:hover .about{
+        opacity: .8;
+          visibility: visible;
+          height: 10%;
+          transition: all .3s ease-in;
+    }
+
+   /* end of images */
+
+     /* end section:Gallery */
+ 
+/* end of section */
+
+/* start of footer */
+footer{
+    background-color: rgb(199, 3, 68);
+    color: white;
+    padding:  1.5rem 0rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    font-family: Karla;
+    font-size: 16px;
+}
+/* end of footer */
+ 
+/* end of HOMEPAGE */
+
+/* start of GALLERYPAGE */
+   
+/* end of GALLERYPAGE */
