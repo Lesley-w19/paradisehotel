@@ -9,22 +9,23 @@ window.addEventListener('DOMContentLoaded', ()=>{
      navBar.classList.toggle("nav-active");
  })
 // HEADER POSITIONING
+    //    the below has been replaced by the position sticky of the header
 
-window.addEventListener('scroll', ()=>{
-    let windowHeight = window.pageYOffset;
-// console.log(windowHeight);
-let header  = document.querySelector(".header")
+// window.addEventListener('scroll', ()=>{
+//     let windowHeight = window.pageYOffset;
+// // console.log(windowHeight);
+// let header  = document.querySelector(".header")
 
-        if(windowHeight > 100){
-            header.classList.add("fixedNav");
-        }
-        else{
-            header.classList.remove("fixedNav");
-        }
+//         if(windowHeight > 100){
+//             header.classList.add("fixedNav");
+//         }
+//         else{
+//             header.classList.remove("fixedNav");
+//         }
 
-        // remove the navBar when scrolling through the page
-        navBar.classList.remove("nav-active");
-});
+//         // remove the navBar when scrolling through the page
+//         navBar.classList.remove("nav-active");
+// });
 
 // when page loaded what to display
 window.addEventListener("DOMContentLoaded", async()=>{

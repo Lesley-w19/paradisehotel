@@ -215,7 +215,67 @@
             "img":"./images/garden3.jpg",
             "category":"garden-3",
             "description":"garden"
-        }
+        },
+        {
+            "id":35,
+            "img":"./images/home9.jpg",
+            "category":"homepage-9",
+            "description":"homepage"
+           },
+           {
+            "id":36,
+            "img":"./images/home1.jpg",
+            "category":"homepage-1",
+            "description":"homepage"
+           },
+           {
+            "id":37,
+            "img":"./images/home2.jpg",
+            "category":"homepage-2",
+            "description":"homepage"
+           },
+           {
+            "id":38,
+            "img":"./images/home3.jpg",
+            "category":"homepage-3",
+            "description":"homepage"
+           },
+           {
+            "id":39,
+            "img":"./images/home4.jpg",
+            "category":"homepage-4",
+            "description":"homepage"
+           },
+           {
+            "id":40,
+            "img":"./images/home5.jpg",
+            "category":"homepage-5",
+            "description":"homepage"
+           },
+           {
+            "id":41,
+            "img":"./images/home6.jpg",
+            "category":"homepage-6",
+            "description":"homepage"
+           },
+           {
+            "id":42,
+            "img":"./images/home7.jpg",
+            "category":"homepage-7",
+            "description":"homepage"
+           },
+           {
+            "id":43,
+            "img":"./images/home8.jpg",
+            "category":"homepage-8",
+            "description":"homepage"
+           },
+           {
+            "id":44,
+            "img":"./images/beachHotelHome.jpg",
+            "category":"beach hotel",
+            "description":"homepage"
+           }
     
     ]
 }
