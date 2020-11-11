@@ -165,15 +165,49 @@ justify-content: space-between;
 
      /* start of section:Welcome  */
 section .welcome{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room7Home.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    animation: background-change 200s -20s infinite alternate ease-in-out;
     text-align: center;
     padding: 10rem 1rem;
     color: white;
 }
+ 
+ /* background-change animation */
+   @keyframes background-change{
+       0%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room7Home.jpg) center/cover no-repeat fixed;
+      
+       }
+       25%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room0Home.jpg) center/cover no-repeat fixed;
+       }
+       30%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room1Home.jpg) center/cover no-repeat fixed;
+       }
+       40%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room2Home.jpg) center/cover no-repeat fixed;
+       }
+       50%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room3Home.jpg) center/cover no-repeat fixed;
+       }
+       60%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room4Home.jpg) center/cover no-repeat fixed;
+       }
+       70%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room5Home.jpg) center/cover no-repeat fixed;
+       }
+       70%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room6Home.jpg) center/cover no-repeat fixed;
+       }
+       75%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/roomsetHomePage.jpg) center/cover no-repeat fixed;
+       }
+       100%{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/room7Home.jpg) center/cover no-repeat fixed;
+       }
+
+   }
+ /*end of background-change animation */
+
 .welcome h2{
     /* font-family: Lobster; */
       font-size: 45px;
