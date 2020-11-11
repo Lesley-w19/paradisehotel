@@ -1,4 +1,13 @@
-
+// Toggle navbar
+let navBar = document.querySelector(".navbar")
+let navBtn = document.querySelector(".toggleBtn");
+     
+window.addEventListener('DOMContentLoaded', ()=>{
+    navBar.classList.remove("nav-active");
+});
+ navBtn.addEventListener('click', ()=>{
+     navBar.classList.toggle("nav-active");
+ })
 // HEADER POSITIONING
 
 window.addEventListener('scroll', ()=>{
@@ -12,6 +21,9 @@ let header  = document.querySelector(".header")
         else{
             header.classList.remove("fixedNav");
         }
+
+        // remove the navBar when scrolling through the page
+        navBar.classList.remove("nav-active");
 });
 
 // when page loaded what to display

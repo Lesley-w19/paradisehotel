@@ -3,26 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Our Gallery</title>
 
-
-    <style>
-        header{
-       border-bottom: .15rem solid  rgb(199, 3, 68);
-   }
-   .gallery h3{
-       color: rgb(199, 3, 68) ;
-       font-size: 32px;
-       text-transform: uppercase;
-       letter-spacing: .2rem;
-   }
-    </style>
 </head>
 <body>
          <!-- start of header -->
-    <header>
+    <header class="header gallery-header">
         <div class="contact">
             <div class="number">
                  <i class="fa fa-phone" aria-hidden="true"></i>
@@ -55,9 +43,9 @@
         </div>
         <div class="titlebar">
             <h2 class="title">paradise <span>dreamer</span></h2>
-            <nav class="navbar">
+            <nav class="navbar navBar">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">Accomodation</a></li>
                     <li><a href="#">Experiences</a></li>
                     <li><a href="#">Spa</a></li>
@@ -66,22 +54,31 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <div class="toggleBtn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
         </div>
     </header>
          <!-- end of header -->
      
          <!-- start of gallery -->
-         <div class="gallery">
-            <h3>our gallery</h3>
+         <div class="gallery gallery-wrapper">
+            <h3 id="gallery">our gallery</h3>
               <div class="options">
                 
               </div>
               <div class="images-wrapper">
          
               </div>
+              <button class="btn" type="submit"><a href="#gallery">Return to main-menu</a></button>
          </div>
-
          <!-- end of gallery -->
+
+         <!-- start of footer -->
+         <footer>
+            copyright &copy; Paradise dreamer hotel 2020. all rights reserved
+        </footer>    
+         <!-- end of footer -->
     <script src="main.js"></script>
 </body>
 </html>
