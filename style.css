@@ -681,7 +681,7 @@ article p, article h3, article h4{
 }
    .gallery-wrapper .images-wrapper{
        display: grid;
-       grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
+       grid-template-columns: repeat( auto-fill, minmax(300px, 1fr));
        gap: 1rem 1rem;
        padding: 1rem;
        place-items: center;
@@ -692,6 +692,7 @@ article p, article h3, article h4{
        overflow: hidden;
    }
    .gallery-wrapper .image{
+    max-width: 400px;
        width: 100%;
        height: 200px;
        cursor: pointer;
