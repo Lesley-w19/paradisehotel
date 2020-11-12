@@ -140,7 +140,18 @@ async function displayLinkBtn(){
         });
 }
 
+// to activate button for the gallery page
+window.addEventListener('scroll', ()=>{
+    let windowHeight = window.pageYOffset;
+    let galleryBtn = document.querySelector(".gallery-btn");
 
+    if( windowHeight > 500 ){
+        galleryBtn.classList.add("showBtn");
+    }
+    else{
+        galleryBtn.classList.remove("showBtn");
+    }
+});
 
 // to activate button for the SPA-PAGE
 let artWrapper = document.querySelectorAll("article-wrapper");
