@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", async()=>{
 
     displayImage(content);
     displayLinkBtn();
-})
+});
 
 //   start of function to fetch data
 // function to get all data from the json api/database later
@@ -66,8 +66,9 @@ const fetchData = async ()=>{
         </div>
     `;
     }).join("\n");
+
     imgWrapper.innerHTML = imgDisplay;
-  }
+  };
 //   end of displayImagesItems
 
     // displayImagesLink for asyns/ await function to fetch data
@@ -141,7 +142,24 @@ async function displayLinkBtn(){
 
 
 
+// to activate button for the SPA-PAGE
+let artWrapper = document.querySelectorAll("article-wrapper");
+let spaBtns = document.querySelectorAll(".spa-btn");
 
+spaBtns.forEach((btn)=>{
+    btn.addEventListener('click', (e)=>{
+        // console.log(e.currentTarget.parentElement);
+        const showText = e.currentTarget.parentElement;
+        artWrapper.forEach((item)=>{
+            // console.log(item);
+            if( item !== showText){
+                item.classList.remove("show-text");
+            }
+        })
+
+        showText.classList.toggle("show-text");
+    })
+});
 
 
 
