@@ -276,6 +276,40 @@
             "category":"beach hotel",
             "description":"homepage"
            }
-    
+    ],
+    "treatments":[
+        {
+            "img":"./images/facialSpa.jpg",
+            "header":"Paradise Special Facial",
+            "text":"Cleanse and refresh your skin with this locally-inspired facial, which uses natural ingredients such as figs, almond powder and warm honey. A hair mask and scalp massage complete this expereince that is ideal for all skin types"
+        },
+        {
+            "img":"./images/traditional.jpg",
+            "header":"Traditional Prince Hammam",
+            "text":"This traditional treatment including a warm herbal steam, body wash with a black soap and gentle exfoliation followed by the application of purifying rasoul clay enriched with seven fragrant herbs is focused on cleansing and refreshing. After rinsing, body milk is applied, leaving your skin supple and enriched."
+        },
+        {
+            "img":"./images/wonders.jpg",
+            "header":"Wonders of Paradise",
+            "text":"This locally-inspired cleansing journey begins with a warm sea-salt bath steeped in fresh mint and with a body scrub made from local nourishing dates, honey and almond powder. It continues with the Arabian body rasoul which has slimming and purifying properties to leave the skin revitalized, then concludes with a dainage massage."
+        },
+        {
+            "img":"./images/recoveryBay.jpg",
+            "header":"Jet Lag Recovery",
+            "text":" Revive circulation, release muscle tension and reset the internal clock with a full body massage using exclusively blended aromatherapy oils, followed by a head massage and calming herbal tea."
+        }
+
+    ],
+    "doctorInfo":[
+        {
+            "info":"Dr. Peeyush is an ayurvedic doctor from Kerala and brings over 10 years experience, having worked in various wellness positions in the hospitality industry as well as in hospitals in India, Maldivines and Georgia. He offers personal consultations and his introductory group hatha and therapeutic yoga sessions can relieve joint and back pain and improve posture. He also teaches asanas, pranayama, dhyana and yoga kriyas."
+        },
+        {
+            "info":"A former professional cricketer and a keen sportsman. Luvuyo holds a diploma in Exercise Science and Sports Conditioning and is also a certified instructor in Pilates, yoga and spinning. He worked on the world-famous Queen Mary 2 and travelled the world from Singapore, Australia and Hong Kong to Europe and the UAE. Luvuyo specializes in body posture, rehabilitation, core training, weight loss and muscle gain through using correct exercise personalized to specific needs."
+        },
+        {
+            "info":"Originally from Brazil, Arthur is our professional Fitness Coach at the resort. A certified personal trainer in over 30 countries, Arthur has a wealth of experience in Italy, Dubai, Maldivines, Kuwait and UK and has completed more than 5,000 hours of workouts for clients.An expert in weight training and in teaching people how to perform each exercise, Arthur possesses a successful track record of evaluating a client's physical fitness, understanding their needs and then developing a practical and achievable workout and nutritional routine for them to reach their targets."
+        }
     ]
+
 }

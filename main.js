@@ -167,12 +167,68 @@ spaBtns.forEach((btn)=>{
                 item.classList.remove("show-text");
             }
         })
-
         showText.classList.toggle("show-text");
     })
 });
 
+// to add text in SPA-PAGE Treatments section
+const treatments=[
+    {
+        img:"./images/facialSpa.jpg",
+        header:"Paradise Special Facial",
+        text:"Cleanse and refresh your skin with this locally-inspired facial, which uses natural ingredients such as figs, almond powder and warm honey. A hair mask and scalp massage complete this expereince that is ideal for all skin types"
+    },
+    {
+        img:"./images/traditional.jpg",
+        header:"Traditional Prince Hammam",
+        text:"This traditional treatment including a warm herbal steam, body wash with a black soap and gentle exfoliation followed by the application of purifying rasoul clay enriched with seven fragrant herbs is focused on cleansing and refreshing. After rinsing, body milk is applied, leaving your skin supple and enriched."
+    },
+    {
+        img:"./images/wonders.jpg",
+        header:"Wonders of Paradise",
+        text:"This locally-inspired cleansing journey begins with a warm sea-salt bath steeped in fresh mint and with a body scrub made from local nourishing dates, honey and almond powder. It continues with the Arabian body rasoul which has slimming and purifying properties to leave the skin revitalized, then concludes with a dainage massage."
+    },
+    {
+        img:"./images/recoveryBay.jpg",
+        header:"Jet Lag Recovery",
+        text:" Revive circulation, release muscle tension and reset the internal clock with a full body massage using exclusively blended aromatherapy oils, followed by a head massage and calming herbal tea."
+    }
+];
+let spaImg = document.getElementById("spa-twoImage");
+let textHeader = document.getElementById("two-textHeader");
+let textInfo = document.querySelector("#treatment-text");
+let leftBtn = document.querySelector(".left");
+let rightBtn = document.querySelector(".right");
 
+ let currentContent = 0;
+
+ window.addEventListener('DOMContentLoaded', ()=>{
+     getContent();
+ });
+
+ function getContent(){
+     const item = treatments[currentContent];
+
+     spaImg.src = item.img;
+     textHeader.innerHTML = item.header;
+     textInfo.innerHTML = item.text;
+ }
+
+ leftBtn.addEventListener('click',()=>{
+     currentContent --;
+     if(currentContent < 0){
+          currentContent = treatments.length - 1;
+     }
+     getContent();
+ })
+
+ rightBtn.addEventListener('click', ()=>{
+     currentContent ++;
+     if(currentContent > treatments.length - 1){
+         currentContent = 0;
+     }
+     getContent();
+ })
 
 
 
