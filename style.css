@@ -582,9 +582,9 @@ footer {
 .article-text {
   margin: 0.1rem 0.5rem;
   text-align: initial;
-
 }
 .spa-btn {
+ margin-right: .5rem;
   background-color: transparent;
   border: none;
   outline: none;
@@ -656,16 +656,16 @@ footer {
 }
  .left{
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 5%;
 }
 .right{
   position: absolute;
-  top: 40%;
+  top: 30%;
   right: 5%;
 }
 .two-text{
-  margin: 2rem 1rem;
+  margin: auto 1rem;
 }
 .dtr-title{
   font-weight: initial;
@@ -674,6 +674,69 @@ footer {
   color: rgb(199, 3, 68);
 }
 /* end of SPA-PAGE */
+
+/* start of experiences page */
+.adventure-bg{
+  padding: 10rem 1rem;
+  background: url(./images/adventure.jpg) center/cover no-repeat fixed;
+}
+.family-bg{
+  padding: 10rem 1rem;
+  background: url(./images/family.jpg) center/cover no-repeat fixed;
+}
+.natureDiscovery-bg{
+  padding: 10rem 1rem;
+  background: url(./images/natureDiscovery.jpg) center/cover no-repeat fixed;
+}
+.experience-wrapper .imagef{
+  width: 500px;
+}
+.experiences{
+  margin:1rem 1.5rem;
+  letter-spacing: .1rem;
+}
+.experiences li{
+  margin-right: 1rem;
+}
+.experiences a{
+  color: rgb(199, 3, 68);
+  border-bottom: .15rem solid transparent;
+}
+.experiences a:hover, .experiences .activate{
+  color: black;
+  border-bottom: .15rem solid black;
+  transition: all .3s ease-in-out;
+}
+.experience-one{
+  margin:2rem 1.5rem;
+  text-align: center;
+}
+.experience-one p{
+  margin: 1.2rem auto;
+  width: 60%;
+}
+.experience-two article{
+  margin:1.5rem;
+}
+.experience-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.experience-wrapper img{
+  margin-right: .5rem;
+}
+.experience-text{
+  margin: auto .1rem;
+  width: 50%;
+}
+.experience-text p{
+  margin: 1rem .1rem;
+}
+/* end of experiences page */
+
 
 @media screen and (max-width: 1069px) {
   /* start of titleBar */
@@ -755,6 +818,8 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+    /* end of spaPage */
+  
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -893,4 +958,30 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  /*end of SPA PAGE */
+
+  /* start of experiences */
+  .experience-one p{
+    margin: 1.2rem auto;
+    width: 80%;
+  }
+  .experience-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .experience-wrapper2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .experience-text{
+    margin: auto .1rem;
+    width: auto;
+  }
+
+  
+  /* end of experiences */
+
 }
+
