@@ -463,8 +463,14 @@ footer {
     bottom: 15%;
     right: 5%;
     border-radius: 50%;
+    outline: none;
+    color: white;
     animation: buttonChange 3s infinite ease-in-out;
-    visibility: hidden;
+    visibility:hidden;
+   
+}
+.gallery-btn:hover{
+  color: rgb(199, 3, 68);
 }
 .showBtn{
     visibility: visible;
@@ -682,15 +688,24 @@ footer {
 }
 .family-bg{
   padding: 10rem 1rem;
-  background: url(./images/family.jpg) center/cover no-repeat fixed;
+  background: url(./images/family.jpg) top/cover no-repeat fixed;
 }
 .natureDiscovery-bg{
   padding: 10rem 1rem;
   background: url(./images/natureDiscovery.jpg) center/cover no-repeat fixed;
 }
-.experience-wrapper .imagef{
-  width: 500px;
+.experience-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
+
+.experience-wrapper img{
+  margin-right: .5rem;
+   width: 500px;
+}
+
 .experiences{
   margin:1rem 1.5rem;
   letter-spacing: .1rem;
@@ -718,16 +733,7 @@ footer {
 .experience-two article{
   margin:1.5rem;
 }
-.experience-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-}
 
-.experience-wrapper img{
-  margin-right: .5rem;
-}
 .experience-text{
   margin: auto .1rem;
   width: 50%;
@@ -736,6 +742,51 @@ footer {
   margin: 1rem .1rem;
 }
 /* end of experiences page */
+
+/* start of accomodation page */
+.accomodation ul{
+   display: flex;
+  justify-content: center;
+}
+.accomodation li{
+  margin: 1rem;
+}
+.accomodation-text{
+  text-align: center;
+}
+.accomodation-text h3{
+  font-weight:lighter;
+  text-align: initial;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.accomodation-text h3:hover{
+  color: rgb(199, 3, 68);
+  transition: all .3s ease-in-out;
+}
+.accomodation-text .fa{
+  
+}
+.accomodation-text p{
+  text-align: initial;
+}
+.btn2{
+  background-color: transparent;
+  border-color: rgb(199, 3, 68);
+}
+.btn2 a{
+  color: rgb(199, 3, 68);
+}
+.btn2:hover{
+  background-color: rgb(199, 3, 68);
+}
+.btn2:hover a{
+  color: white;
+}
+/* end of accomodation page */
+
 
 
 @media screen and (max-width: 1069px) {

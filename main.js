@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", async()=>{
 // function to get all data from the json api/database later
 const fetchData = async ()=>{
     try{
-        const response = await fetch("data.json");
+        const response = await fetch("./data.json");
         const data = await response.json();
 
         return data;
@@ -61,7 +61,7 @@ const fetchData = async ()=>{
         // console.log(item);
         return `
         <div class="image-phto">
-        <img src=${item.img} alt="${item.id}" class="image">
+        <img src="${item.img}" alt="${item.id}" class="image">
         <div class="about"> ${item.category}</div>
         </div>
     `;
@@ -141,6 +141,8 @@ async function displayLinkBtn(){
 }
 
 // to activate button for the gallery page
+// let galleryBtn = document.querySelector(".gallery-btn");
+
 window.addEventListener('scroll', ()=>{
     let windowHeight = window.pageYOffset;
     let galleryBtn = document.querySelector(".gallery-btn");
@@ -151,7 +153,17 @@ window.addEventListener('scroll', ()=>{
     else{
         galleryBtn.classList.remove("showBtn");
     }
+     
 });
+// // to scroll to the top of the page
+//  let glleryBtn = document.getElementById("galleryBtn");
+//  glleryBtn.addEventListener('click', ()=>{
+//     window.scrollTo({
+//         top:'10%',
+//         left:0,
+//         behavior:'smooth'
+//     });
+//  });
 
 // to activate button for the SPA-PAGE
 let artWrapper = document.querySelectorAll("article-wrapper");
@@ -174,22 +186,22 @@ spaBtns.forEach((btn)=>{
 // to add text in SPA-PAGE Treatments section
 const treatments=[
     {
-        img:"./images/facialSpa.jpg",
+        image:"./images/facialSpa.jpg",
         header:"Paradise Special Facial",
         text:"Cleanse and refresh your skin with this locally-inspired facial, which uses natural ingredients such as figs, almond powder and warm honey. A hair mask and scalp massage complete this expereince that is ideal for all skin types"
     },
     {
-        img:"./images/traditional.jpg",
+        image:"./images/traditional.jpg",
         header:"Traditional Prince Hammam",
         text:"This traditional treatment including a warm herbal steam, body wash with a black soap and gentle exfoliation followed by the application of purifying rasoul clay enriched with seven fragrant herbs is focused on cleansing and refreshing. After rinsing, body milk is applied, leaving your skin supple and enriched."
     },
     {
-        img:"./images/wonders.jpg",
+        image:"./images/wonders.jpg",
         header:"Wonders of Paradise",
         text:"This locally-inspired cleansing journey begins with a warm sea-salt bath steeped in fresh mint and with a body scrub made from local nourishing dates, honey and almond powder. It continues with the Arabian body rasoul which has slimming and purifying properties to leave the skin revitalized, then concludes with a dainage massage."
     },
     {
-        img:"./images/recoveryBay.jpg",
+        image:"./images/recoveryBay.jpg",
         header:"Jet Lag Recovery",
         text:" Revive circulation, release muscle tension and reset the internal clock with a full body massage using exclusively blended aromatherapy oils, followed by a head massage and calming herbal tea."
     }
@@ -209,7 +221,7 @@ let rightBtn = document.querySelector(".right");
  function getContent(){
      const item = treatments[currentContent];
 
-     spaImg.src = item.img;
+     spaImg.src = item.image;
      textHeader.innerHTML = item.header;
      textInfo.innerHTML = item.text;
  }
@@ -230,5 +242,6 @@ let rightBtn = document.querySelector(".right");
      getContent();
  })
 
+// end of SPA PAGE
 
-
+// to get the content from the son flie for accomodation.html
