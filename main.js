@@ -46,7 +46,8 @@ const fetchData = async ()=>{
         return data;
     }
     catch(err){
-        console.log(err.message);
+        // console.log(err.message);
+        return err.message;
     }
 };
 //   end of function to fetch data
@@ -184,28 +185,6 @@ spaBtns.forEach((btn)=>{
 });
 
 // to add text in SPA-PAGE Treatments section
-const treatments=[
-    {
-        image:"./images/facialSpa.jpg",
-        header:"Paradise Special Facial",
-        text:"Cleanse and refresh your skin with this locally-inspired facial, which uses natural ingredients such as figs, almond powder and warm honey. A hair mask and scalp massage complete this expereince that is ideal for all skin types"
-    },
-    {
-        image:"./images/traditional.jpg",
-        header:"Traditional Prince Hammam",
-        text:"This traditional treatment including a warm herbal steam, body wash with a black soap and gentle exfoliation followed by the application of purifying rasoul clay enriched with seven fragrant herbs is focused on cleansing and refreshing. After rinsing, body milk is applied, leaving your skin supple and enriched."
-    },
-    {
-        image:"./images/wonders.jpg",
-        header:"Wonders of Paradise",
-        text:"This locally-inspired cleansing journey begins with a warm sea-salt bath steeped in fresh mint and with a body scrub made from local nourishing dates, honey and almond powder. It continues with the Arabian body rasoul which has slimming and purifying properties to leave the skin revitalized, then concludes with a dainage massage."
-    },
-    {
-        image:"./images/recoveryBay.jpg",
-        header:"Jet Lag Recovery",
-        text:" Revive circulation, release muscle tension and reset the internal clock with a full body massage using exclusively blended aromatherapy oils, followed by a head massage and calming herbal tea."
-    }
-];
 let spaImg = document.getElementById("spa-twoImage");
 let textHeader = document.getElementById("two-textHeader");
 let textInfo = document.querySelector("#treatment-text");
@@ -218,15 +197,26 @@ let rightBtn = document.querySelector(".right");
      getContent();
  });
 
- function getContent(){
+ let treatments =[];
+
+ async function getContent(){
+     try{
+      const data = await fetchData();
+     treatments = await data.treatments;
+
      const item = treatments[currentContent];
 
-     spaImg.src = item.image;
+     spaImg.src = item.img;
      textHeader.innerHTML = item.header;
      textInfo.innerHTML = item.text;
+    } catch(err){
+        return err.message;
+    }
+    
+     
  }
 
- leftBtn.addEventListener('click',()=>{
+ leftBtn.addEventListener('click', ()=>{
      currentContent --;
      if(currentContent < 0){
           currentContent = treatments.length - 1;
@@ -234,7 +224,7 @@ let rightBtn = document.querySelector(".right");
      getContent();
  })
 
- rightBtn.addEventListener('click', ()=>{
+ rightBtn.addEventListener('click',  ()=>{
      currentContent ++;
      if(currentContent > treatments.length - 1){
          currentContent = 0;
@@ -244,4 +234,87 @@ let rightBtn = document.querySelector(".right");
 
 // end of SPA PAGE
 
-// to get the content from the son flie for accomodation.html
+// to get the content from the json flie for accomodation.html
+
+let accomodationImage = document.getElementById("accomodationImage");
+let title = document.querySelector(".accomodation-title");
+let about = document.querySelector(".accomodation-abt");
+let size = document.querySelector(".size");
+let occupants = document.querySelector(".occupants");
+let accomodationBtn1 = document.querySelector(".btn1");
+let accomodationBtn2 = document.querySelector(".btn2");
+
+
+let currentAccomodation = 0;
+
+ window.addEventListener('DOMContentLoaded',()=>{
+     getAccomodation();
+ });
+
+ let accomodations =[];
+
+ async function getAccomodation(){
+     try{
+      const data = await fetchData();
+     accomodations = await data.accomodation;
+
+     const item = accomodation[currentAccomodation];
+
+       accomodationImage.src =item.image;
+        // console.log(room.image);
+        title.innerHTML = item.title;
+        about.innerHTML = item.about;
+        occupants.innerHTML = item.occupants;
+        accomodationBtn1.innerHTML = item.button1;
+        accomodationBtn2.innerHTML = item.button2;
+    
+    } catch(err){
+        return err.message;
+    }   
+ };
+
+
+// let accomodationWrapper = document.querySelector(".accomodation-wrapper");
+
+// let currentAccomodation = 0;
+
+// window.addEventListener('DOMContentLoaded', ()=>{
+//     getAccomodation();
+// });
+
+// let accomodation = [];
+
+// async function getAccomodation(){
+//     try{
+//         const data = await fetchData();
+//         accomodation = await data.accomodation;
+
+//         const room = accomodation[currentAccomodation];
+    
+//          const accomodationContent = room.map((eachRoom)=>{
+//              return `
+//              <div>
+//              <img src="${eachRoom.image}" class="imagef" id="accomodationImage">
+//          </div>
+//          <div class="experience-text accomodation-text">
+//  <h3 class="accomodation-title">
+//      ${eachRoom.title}
+//     <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+// <p class="accomodation-abt">
+// ${eachRoom.about}
+// </p>
+// <p class="size">${eachRoom.size}</p>
+// <p class="occupants">${eachRoom.occupants}</p>
+
+// <button type="submit" class=" btn btn1"><a href="#">${eachRoom.btn1}</a></button>
+// <button type="submit" class=" btn btn2"><a href="#">${eachRoom.btn2}</a></button>
+//          </div>
+//              `
+//          }).join(" \n");
+
+//          accomodationWrapper.innerHTML = accomodationContent;
+//     }
+//     catch(err){
+//  return err.message;
+//     }
+// }

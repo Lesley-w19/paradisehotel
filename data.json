@@ -317,67 +317,41 @@
             "title":"MAILE THREE - BEDROOM PRESIDENTIAL SUITE",
         "about":"Two king beds and two queen beds, One full size sofabed; one rollaway and one crib on request",
         "size":"4,000 sq.ft (372㎡), plus a lanai fronting the entire north wing",
-        "occupants":"6 adults, or 6 adults and 5 children"
+        "occupants":"6 adults, or 6 adults and 5 children",
+        "image":"./images/maile.jpg",
+        "type":"Residential suite",
+        "button1":"check rates",
+       "button2":"details"
         },
         {
             "title":"LOKELAI PRESIDENTIAL THREE - BEDROOM SUITE",
         "about":"King bed in two bedrooms and two queen beds in one bedroom with customizable Four Seasons mattresses",
         "size":"Total of 7,200 sq.ft (669㎡), including 4,500 sq.ft (418㎡) indoors and 2,700 sq.ft (251㎡) of furnished outdoor living, plus a 1,900 sq.ft (176㎡) private garden",
-        "occupants":"8 adults, or 6 adults and 6 children"
+        "occupants":"8 adults, or 6 adults and 6 children",
+        "image":"./images/lokelai.jpg",
+        "type":"Residential suite",
+       "button1":"check rates",
+       "button2":"details"
         },
         {
             "title":"CLUB OCEANFRONT PRIME ONE - BEDROOM SUITE",
         "about":"King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
         "size":"1,400 sq.ft (130㎡), plus lanai",
-        "occupants":"4 adults, or 2 adults and 3 children"
-        },
+        "occupants":"4 adults, or 2 adults and 3 children",
+        "image":"./images/cluboceanfront.jpg",
+        "type":"Residential suite",
+        "button1":"check rates",
+       "button2":"details"
+         },
         {
-            "title":"OCEANFRONT PRIME SUITE",
-        "about":"  King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
-        "size":" 1,400 sq.ft (130㎡), plus lanai",
-        "occupants":" 4 adults, or 2 adults and 3 children"
-        },
-        {
-            "title":"DELUXE CLUB OCEAN - VIEW ROOM",
-        "about":" King bed or two queen beds, with customizable Four Seasons matresses, King bedded room: One crib (on request) and one sofabed (included( | Queen-bedded room: One crib (on request)",
-        "size":" 600 sq.ft (56㎡), plus lanai",
-        "occupants":" King bed: 3 adults, or 2 adults and 1 child. Two queen beds: 4 adults, or 2 adults and 2 children"
-        },
-        {
-            "title":"PREMIER GARDEN - VIEW ROOM",
-        "about":"King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
-        "size":"600 sq.ft (56㎡), plus lanai",
-        "occupants":"King bed: 3 adults, or 2 adults and 2 children; Two queen beds: 4 adults, or 2 adults and 2 children"
-        },
-        {
-            "title":"MOUNTAINSIDE ROOM",
-        "about":"King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
-        "size":"600 sq.ft (56㎡), plus lanai",
-        "occupants":"King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children"
-        },
-        {
-            "title":"PREMIER MOUNTAINSIDE SUITE",
-        "about":"One bedroom: king bed with customizable Four Seasons mattresses | Two bedroom: king bed and two queens with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
-        "size":"1,400 sq.ft (130㎡), plus lanai",
-        "occupants":"One bedroom: 4 adults, or 2 adults and 3 children | Two bedroom: 6 adults, or 4 adults and 5 children"
-        },
-        {
-            "title":"OCEAN - VIEW PRIME EXECUTIVE ACCESSIBLE SUITE",
+            "title":"CLUB OCEANFRONT PRIME ONE - BEDROOM SUITE",
         "about":"King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
-        "size":"Approximately 840 sq.ft (78㎡), plus lanai",
-        "occupants":"3 adults, or 2 adults and 2 children"
-        },
-        {
-            "title":"ACCESSIBLE DELUXE GARDEN - VIEW ROOM",
-        "about":"King bed or two queen beds with customizable Four Seasons mattresses, King-bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
-        "size":"600 sq.ft (56㎡), plus lanai",
-        "occupants":"King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children"
-        },
-        {
-            "title":"DE-OUBLE GARDEN - VIEW EXECUTIVE SUITE ",
-        "about":"King bed with customizable Four Seasons mattresses, One crib and one sofabed (on request) one sofabed (on request)",
-        "size":"Approximately 8400 sq.ft (78㎡), plus lanai",
-        "occupants":"3 adults, or 2 adults and 2 children"
+        "size":"1,400 sq.ft (130㎡), plus lanai",
+        "occupants":"4 adults, or 2 adults and 3 children",
+        "image":"./images/cluboceanfront.jpg",
+        "type":"Residential suite",
+        "button1":"check rates",
+       "button2":"details"
         }
     ]
 

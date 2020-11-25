@@ -1,0 +1,264 @@
+,
+        {
+            "title":"OCEANFRONT PRIME SUITE",
+        "about":"  King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
+        "size":" 1,400 sq.ft (130㎡), plus lanai",
+        "occupants":" 4 adults, or 2 adults and 3 children"
+        },
+        {
+            "title":"DELUXE CLUB OCEAN - VIEW ROOM",
+        "about":" King bed or two queen beds, with customizable Four Seasons matresses, King bedded room: One crib (on request) and one sofabed (included( | Queen-bedded room: One crib (on request)",
+        "size":" 600 sq.ft (56㎡), plus lanai",
+        "occupants":" King bed: 3 adults, or 2 adults and 1 child. Two queen beds: 4 adults, or 2 adults and 2 children"
+        },
+        {
+            "title":"PREMIER GARDEN - VIEW ROOM",
+        "about":"King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
+        "size":"600 sq.ft (56㎡), plus lanai",
+        "occupants":"King bed: 3 adults, or 2 adults and 2 children; Two queen beds: 4 adults, or 2 adults and 2 children"
+        },
+        {
+            "title":"MOUNTAINSIDE ROOM",
+        "about":"King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
+        "size":"600 sq.ft (56㎡), plus lanai",
+        "occupants":"King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children"
+        },
+        {
+            "title":"PREMIER MOUNTAINSIDE SUITE",
+        "about":"One bedroom: king bed with customizable Four Seasons mattresses | Two bedroom: king bed and two queens with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
+        "size":"1,400 sq.ft (130㎡), plus lanai",
+        "occupants":"One bedroom: 4 adults, or 2 adults and 3 children | Two bedroom: 6 adults, or 4 adults and 5 children"
+        },
+        {
+            "title":"OCEAN - VIEW PRIME EXECUTIVE ACCESSIBLE SUITE",
+        "about":"King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)",
+        "size":"Approximately 840 sq.ft (78㎡), plus lanai",
+        "occupants":"3 adults, or 2 adults and 2 children"
+        },
+        {
+            "title":"ACCESSIBLE DELUXE GARDEN - VIEW ROOM",
+        "about":"King bed or two queen beds with customizable Four Seasons mattresses, King-bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)",
+        "size":"600 sq.ft (56㎡), plus lanai",
+        "occupants":"King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children"
+        },
+        {
+            "title":"DE-OUBLE GARDEN - VIEW EXECUTIVE SUITE ",
+        "about":"King bed with customizable Four Seasons mattresses, One crib and one sofabed (on request) one sofabed (on request)",
+        "size":"Approximately 8400 sq.ft (78㎡), plus lanai",
+        "occupants":"3 adults, or 2 adults and 2 children"
+        }
+
+
+
+
+        !-- two -->
+        <article>
+            <div class="experience-wrapper ">
+                <div>
+                    <img src="./images/lokelai.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+            LOKELAI PRESIDENTIAL THREE - BEDROOM SUITE
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+King bed in two bedrooms and two queen beds in one bedroom with customizable Four Seasons mattresses
+</p>
+<p>Total of 7,200 sq.ft (669㎡), including 4,500 sq.ft (418㎡) indoors and 2,700 sq.ft (251㎡) of furnished outdoor living, plus a 1,900 sq.ft (176㎡) private garden
+</p>
+<p>8 adults, or 6 adults and 6 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+<!-- three -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/cluboceanfront.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+            CLUB OCEANFRONT PRIME ONE - BEDROOM SUITE
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+    King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)    
+</p>
+<p> 1,400 sq.ft (130㎡), plus lanai</p>
+<p>4 adults, or 2 adults and 3 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- four -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/oceanfront.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+           OCEANFRONT PRIME SUITE
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)
+</p>
+<p>1,400 sq.ft (130㎡), plus lanai</p>
+<p>4 adults, or 2 adults and 3 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- five -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/deluxeocean.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+            DELUXE CLUB OCEAN - VIEW ROOM
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+    King bed or two queen beds, with customizable Four Seasons matresses, King bedded room: One crib (on request) and one sofabed (included( | Queen-bedded room: One crib (on request)   
+</p>
+<p>600 sq.ft (56㎡), plus lanai</p>
+<p> King bed: 3 adults, or 2 adults and 1 child. Two queen beds: 4 adults, or 2 adults and 2 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        <!-- </article>
+        <!-- six -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/premiergarden.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+           premier GARDEN - VIEW ROOM
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+    King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)
+</p>
+<p> 600 sq.ft (56㎡), plus lanai</p>
+<p>King bed: 3 adults, or 2 adults and 2 children; Two queen beds: 4 adults, or 2 adults and 2 children</p> -->
+
+<button type="submit" class=" btn btn1"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- seven -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/mountainside.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+          MOUNTAINSIDE ROOM
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+King bed or two queen beds with customizable Four Seasons mattresses.King bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)
+</p>
+<p>600 sq.ft (56㎡), plus lanai </p>
+<p>King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- eight -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/mountainsidepremierjpg.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+         premier mountainside suite 
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+    One bedroom: king bed with customizable Four Seasons mattresses | Two bedroom: king bed and two queens with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)
+    </p>
+<p>1,400 sq.ft (130㎡), plus lanai </p>
+<p> One bedroom: 4 adults, or 2 adults and 3 children | Two bedroom: 6 adults, or 4 adults and 5 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- nine -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/oceanviewexecutive.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+         OCEAN - VIEW PRIME EXECUTIVE ACCESSIBLE SUITE
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+King bed with customizable Four Seasons mattresses. One rollaway, one crib (on request) and one sofabed (included)
+    </p>
+<p>Approximately 840 sq.ft (78㎡), plus lanai </p>
+<p>3 adults, or 2 adults and 2 children </p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- ten -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/gardenviewaccesible.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+         ACCESSIBLE DELUXE GARDEN - VIEW ROOM
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+    King bed or two queen beds with customizable Four Seasons mattresses, King-bedded room: One crib and one sofabed (on request) | Queen-bedded room: One crib (on request)
+        </p>
+<p>600 sq.ft (56㎡), plus lanai </p>
+<p>King bed: 3 adults, or 2 adults and 1 child | Two queen beds: 4 adults, or 2 adults and 2 children </p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article>
+        <!-- eleven -->
+        <article>
+            <div class="experience-wrapper">
+                <div>
+                    <img src="./images/de-ouble.jpg" class="imagef">
+                </div>
+                <div class="experience-text accomodation-text">
+        <!-- <h3>
+         De-ouble GARDEN - VIEW EXECUTIVE SUITE
+           <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+<p>
+King bed with customizable Four Seasons mattresses, One crib and one sofabed (on request) one sofabed (on request)
+        </p>
+<p>Approximately 8400 sq.ft (78㎡), plus lanai </p>
+<p> 3 adults, or 2 adults and 2 children</p> -->
+
+<button type="submit" class=" btn"><a href="#">check rates</a></button>
+<button type="submit" class=" btn btn2"><a href="#">details</a></button>
+                </div>
+            </div>
+        </article> -->

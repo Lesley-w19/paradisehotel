@@ -754,7 +754,7 @@ footer {
 .accomodation-text{
   text-align: center;
 }
-.accomodation-text h3{
+.accomodation-title{
   font-weight:lighter;
   text-align: initial;
   text-transform: uppercase;
@@ -767,7 +767,7 @@ footer {
   transition: all .3s ease-in-out;
 }
 .accomodation-text .fa{
-  
+  visibility: visible;
 }
 .accomodation-text p{
   text-align: initial;
